@@ -17,6 +17,7 @@ class ProfilePage extends LitElement{
   .p{
     max-width: 80vmin;
     margin-top: 64px;
+    font-size: var(--body-font-size);
   }
 
   .body{
@@ -36,11 +37,13 @@ class ProfilePage extends LitElement{
     window.scrollTo(0,0);
 
     const postId = router.location.params.id;
+    const postController = new PostController();
+
     return html`
     <div class="body">
       <div class="p">
-        <h2>${postId}</h2>
-        <p>${new PostController().getCustomerDescription(postId)}</p>
+        <h2>${postController.getPostTitle(postId)}</h2>
+        <p>${postController.getPostContent(postId)}</p>
       </div>
     </div>
     `;

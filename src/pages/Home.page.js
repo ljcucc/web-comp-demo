@@ -31,7 +31,7 @@ class HomePage extends LitElement{
 
   render() {
     const cc = new PostController()
-    const list = cc.getCustomerList();
+    const list = cc.getPostList();
     return html`
     <home-header></home-header>
     <div class="cards">
@@ -39,10 +39,10 @@ class HomePage extends LitElement{
         list.map(item=>
           html`<app-card>
             <card-title>
-            ${item}
+            ${cc.getPostTitle(item)}
             </card-title>
             <card-body>
-              ${cc.getCustomerDescription(item)}
+              ${cc.getPostContent(item)}
             </card-body>
             <card-action>
               <app-button @click="${this.learnMore(item)}">Learn more</app-button>
