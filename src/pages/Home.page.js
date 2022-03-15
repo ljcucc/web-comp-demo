@@ -38,15 +38,15 @@ class HomePage extends LitElement{
       ${
         list.map(item=>
           html`<app-card>
-            <card-title>
-            ${cc.getPostTitle(item)}
-            </card-title>
-            <card-body>
-              ${cc.getPostContent(item)}
-            </card-body>
-            <card-action>
-              <app-button @click="${this.learnMore(item)}">Learn more</app-button>
-            </card-action>
+              <card-title>
+                ${cc.getPostTitle(item)}
+              </card-title>
+              <card-body>
+                ${cc.getPostContent(item)}
+              </card-body>
+              <card-action>
+                <app-button @click="${this.learnMore(item)}">Learn more</app-button>
+              </card-action>
             </app-card>`
         )
       }
