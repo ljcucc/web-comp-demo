@@ -23,7 +23,7 @@ class HomeHeader extends LitElement{
     }
 
     .body .title{
-      font-size: 60px;
+      font-size: var(--h1-font-size);
       text-align: center;
     }
   `;

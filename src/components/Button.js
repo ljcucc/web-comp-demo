@@ -3,9 +3,10 @@ import {LitElement, html, css} from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/
 class ButtonComp extends LitElement{
   static styles = css`
   .button{
-    padding: 8px 16px;
+    padding: 16px;
     text-transform: uppercase;
     font-family: Helvetica, Arial, sans-serif;
+    font-size: var(--button-font-size);
     font-weight: 800;
     outline: none;
     border:none;

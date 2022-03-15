@@ -1,3 +1,14 @@
+:root{
+  --body-font-size:14px;
+  --button-font-size: 14px;
+  --title-font-size: 16px;
+
+  --h2-font-size:30px;
+  --h1-font-size:60px;
+
+  --card-body-font-size:14px;
+}
+
 body, html {
   padding: 0;
   margin: 0;

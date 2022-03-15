@@ -4,7 +4,12 @@ class AboutPage extends LitElement{
   static styles = css`
   #about{
     padding: 32px 10vmin;
+    font-size: var(--body-font-size);
     font-family: Helvetica, Arial, sans-serif;
+  }
+
+  h2{
+    font-size: var(--h2-font-size);
   }
   `;
 

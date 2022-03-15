@@ -3,7 +3,7 @@ import {LitElement, html, css} from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/
 class CardBody extends LitElement{
   static styles = css`
   .card-body{
-    font-size: 14px;
+    font-size: var(--card-body-font-size);
   }
   `;
 
@@ -19,7 +19,7 @@ class CardBody extends LitElement{
 class CardTitle extends LitElement{
   static styles = css`
   .card-title{
-    font-size: 16px;
+    font-size: var(--title-font-size);
     margin-bottom:16px;
   }
   `;
@@ -60,7 +60,7 @@ class CardComponent extends LitElement{
       max-width: 60vmin;
       /* box-shadow: 1px 1px 10px rgba(0,0,0,.35) ; */
       border-radius: 10px;
-      font-size: 16px;
+      font-size: var(--card-body-font-size);
       font-family: Helvetica, Arial, sans-serif;
       border: 1px solid rgba(0,0,0,.35);
 
