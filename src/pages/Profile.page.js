@@ -33,6 +33,8 @@ class ProfilePage extends LitElement{
   }
 
   render(){
+    window.scrollTo(0,0);
+
     const postId = router.location.params.id;
     return html`
     <div class="body">
