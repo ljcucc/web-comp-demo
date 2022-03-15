@@ -6,7 +6,7 @@
 
 Just run the index.html in browser, or visit the Github Page
 
-> Recommended to use `python -m http.server` or `npm -g i localhost` to host the site.
+> Recommended to use `npm i -g http-server` to host the site.
 
 # Tech in this exmpale using
 
