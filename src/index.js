@@ -7,7 +7,7 @@ export const router = new Router(outlet);
 import "./pages/Home.page.js";
 import "./pages/About.page.js";
 import "./pages/Profile.page.js";
-import "./pages/Dashboard.page.js";
+// import "./pages/Dashboard.page.js";
 
 import "./components/Topbar.js"
 // import "./pages/About.page.js";
