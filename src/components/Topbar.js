@@ -49,7 +49,7 @@ class Topbar extends LitElement{
   render(){
     return html`
   <div class="appbar">
-    <a href="/" class="home" title="⭐ Hi! I'm IT Wolf 💻.🐺, nice to meet you! ⭐">💻.🐺</a>
+    <a href="/" class="home" title="⭐ Hi! I'm IT Wolf 💻.🐺, nice to meet you! ⭐">💻 🐺 Blog</a>
     <a href="/about">About</a>
     <a href="https://twitter.com/ljcucc">Twitter</a>
     <a href="https://unsplash.com/@ljcucc">Unsplash</a>
